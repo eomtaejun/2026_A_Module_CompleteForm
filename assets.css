@@ -1,0 +1,37 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-size: 1rem;}
+a{text-decoration: none; color: #000; display: block;}
+a, label, button{cursor: pointer; user-select: none;}
+input, textarea, select, button{outline: none; border: none; font-size: .95rem;}
+body{height: 100vh;}
+
+.fx-1{font-size: 1rem !important;}
+.fx-2{font-size: 1.2rem !important;}
+.fx-3{font-size: 1.4rem !important;}
+.fx-4{font-size: 1.6rem !important;}
+.fx-5{font-size: 1.8rem !important;}
+.fx-6{font-size: 2rem !important;}
+.fx-7{font-size: 2.2rem !important;}
+.fx-8{font-size: 2.4rem !important;}
+.fx-9{font-size: 2.6rem !important;}
+.fx-10{font-size: 2.8rem !important;}
+.fx-11{font-size: 3rem !important;}
+.fx-12{font-size: 4rem !important;}
+.fx-13{font-size: 5rem !important;}
+
+.fx-n1{font-size: .95rem !important;}
+.fx-n2{font-size: .9rem !important;}
+.fx-n3{font-size: .85rem !important;}
+.fx-n4{font-size: .8rem !important;}
+
+.jcs{justify-content: start;}
+.jcc{justify-content: center;}
+.jce{justify-content: end;}
+.jcb{justify-content: space-between;}
+
+.ais{align-items: start;}
+.aic{align-items: center;}
+.aie{align-items: end;}
+
+.fit-cover{object-fit: cover; width: 100%; height: 100%;}
+.filter{filter: brightness(40%);}
+.nowrap{white-space: nowrap;}
