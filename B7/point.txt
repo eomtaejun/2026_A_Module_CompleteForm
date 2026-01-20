@@ -1,0 +1,2 @@
+- maxlength 사용
+- value 변수를 따로 다루는 것이 아닌 input들의 값을 매칭해 사용

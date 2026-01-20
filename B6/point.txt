@@ -1,0 +1,2 @@
+- readFile: rs.target.result
+- loadImage
