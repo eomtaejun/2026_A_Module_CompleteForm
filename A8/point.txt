@@ -1,0 +1,4 @@
+- wrap 800px / img 100px / button 2rem
+- body #f8f9fa
+- margin/padding, gap, font-size, border-radius 확실히 외우기
+- font 활용 필요

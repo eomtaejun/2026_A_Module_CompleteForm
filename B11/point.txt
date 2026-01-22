@@ -1,0 +1,4 @@
+- state 활용
+- button text 설정하는 방식 변화
+- button display가 아닌 hidden으로 관리
+- textContent로 해야 성능 향상

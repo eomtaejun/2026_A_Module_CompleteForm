@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f8f9fa;
+}
+
+.wrap{
+    width: 800px;
+}
+
+img{
+    height: 100px;
+}
+
+.items button{
+    width: 2rem;
+    height: 2rem;
+}
