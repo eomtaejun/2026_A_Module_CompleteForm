@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <input type="file" id="image">
+
+    <div class="box mb-3"></div>
+
+    <div class="btns d-flex jcs aic gap-2">
+        <button data-filter="grayscale" class="btn btn-light border">흑백</button>
+        <button data-filter="sepia" class="btn btn-light border">세피아</button>
+        <button data-filter="invert" class="btn btn-light border">반전</button>
+        <button data-filter="" class="btn btn-light border">원본</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>

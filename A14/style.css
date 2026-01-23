@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+span{
+    cursor: default;
+    position: relative;
+    white-space: nowrap;
+}
+
+span:nth-of-type(1):focus::after, 
+span:nth-of-type(1):hover::after{
+    content: "“설정” 버튼을 눌러 서비스를 설정할 수 있습니다.";
+    position: absolute;
+    left: 50%;
+    bottom: 110%;
+    transform: translateX(-50%);
+}
+span:nth-of-type(2):focus::after, 
+span:nth-of-type(2):hover::after{
+    content: "로그아웃되고 메인페이지로 이동합니다.";
+    position: absolute;
+    left: 110%;
+    top: 50%;
+    transform: translateY(-50%);
+}

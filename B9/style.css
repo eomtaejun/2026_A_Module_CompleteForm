@@ -1,0 +1,5 @@
+body{background: #eee;}
+
+[data-id]{
+    cursor: pointer;
+}

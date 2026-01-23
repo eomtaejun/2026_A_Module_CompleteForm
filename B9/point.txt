@@ -1,0 +1,6 @@
+- parameter 유무 차이를 삼항 연산자를 통해 get set 함수 구별
+    - storage(): get / return value 변수에 저장하기
+    - storage(favorites): set / 매개변수로 localStorage에 저장, return value 없음
+- get은 ??(null 병합 연산자)를 활용하여 storage 구분
+- load() 시 includes와 isFavorite 변수로 단축
+- find 대신 includes로 구분 및 전개 연산자로 저장

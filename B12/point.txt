@@ -1,0 +1,4 @@
+- readFile: rs.target.result
+- !filter로 구분할 시 원본("")에 대한 판단 오류 => ==(동등 연산자)로 null, undefined에만 구분
+- 혹시 모를 ?.(optional chaning)으로 이미지가 없는 상황 고려
+- classList.add("")는 불가 => filter && (단락 AND 연산자)로 빈 문자열일 시 무시

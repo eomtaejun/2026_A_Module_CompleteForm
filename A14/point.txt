@@ -1,0 +1,2 @@
+- white-space nowrap 활용
+- :hover display none 대신 :hover::after로 단축
