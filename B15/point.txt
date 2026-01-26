@@ -1,0 +1,4 @@
+- csv parsing function 중요
+- filter 대신 slice (비슷하긴 함)
+- Object.values로 td 축약
+- Array.from으로 유사 배열 생성, pagination button 이용

@@ -27,6 +27,7 @@ body{height: 100vh;}
 .jcc{justify-content: center;}
 .jce{justify-content: end;}
 .jcb{justify-content: space-between;}
+.jca{justify-content: space-around;}
 
 .ais{align-items: start;}
 .aic{align-items: center;}

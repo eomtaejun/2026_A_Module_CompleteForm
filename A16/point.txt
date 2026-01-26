@@ -1,0 +1,2 @@
+- flex와 flex-grow 1을 활용
+- bg-opacity-25, *-primary-subtle로 반투명 사용

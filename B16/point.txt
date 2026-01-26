@@ -1,0 +1,2 @@
+- load의 praramenter로 filtering된 list 사용
+- querySelectorAll을 전개 구문을 이용해 .indexOf로 load 구분하여 호출
