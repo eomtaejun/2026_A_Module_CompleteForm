@@ -1,0 +1,7 @@
+- video.paused 상태를 활용한 toggle 함수 호출 => video[video.paused ? "play" : "pause"]();
+- video.muted 상태를 활용한 toggle 상태 변경 => video.muted=!video.muted;
+- 버튼을 눌렀을 때가 아닌 상태 변경에 대한 eventListener를 통해 button textContent 변경
+    - play
+    - pause
+    - volumechange
+- 시간 변경 함수를 생성, timeupdate / loadedmetadata eventListener에 호출

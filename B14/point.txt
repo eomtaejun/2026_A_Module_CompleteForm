@@ -1,0 +1,5 @@
+- Math.PI: 180, ctx.arc의 startAngle: 3시 방향 => startAngle= -Math.PI/2
+- reduce를 통해 total 구하기
+- 백분율 공식 중요
+- ctx.moveTo()로 canvas의 중심에 가야 arc 원을 중심부터 그림
+- ctx.beginPath(), ctx.closePath()가 없으면 이전에 이전에 그린 그래프와 이어짐

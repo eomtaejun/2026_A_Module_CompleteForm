@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="d-flex aie gap-3 mb-3">
+        <video src="./test-video.mp4"></video>
+        <p class="time">00:00 / 00:00</p>
+    </div>
+
+    <div class="btns d-flex jcs aic gap-2">
+        <button type="button" data-control="pp" class="btn btn-dark">재생</button>
+        <button type="button" data-control="prev" class="btn btn-dark">10초 되감기</button>
+        <button type="button" data-control="next" class="btn btn-dark">10초 빨리감기</button>
+        <button type="button" data-control="mute" class="btn btn-dark">소리 음소거</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
